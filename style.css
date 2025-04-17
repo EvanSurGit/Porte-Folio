@@ -151,3 +151,18 @@ button:hover {
   transform: scale(1.1);
   filter: brightness(1);
 }
+
+.profil-img {
+  max-width: 200px;
+  border-radius: 50%;
+  border: 4px solid red; /* ✅ Contour rouge */
+  display: block;
+  margin: 1rem auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profil-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
